@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sports shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <p>Shop</p>
+        </div>
+        <nav class="navi">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Catagories</a>
+                </li>
+                <li>
+                    <a href="#">Products</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                
+            </ul>
+        </nav>
+
+    </header>
+    <!--banner-->
+    <section class="banner">
+        <div class="slide">
+            <div class="overlay">
+                <div class="details">
+                    <p>All Your <span class="h1">Sports</span> Products Need at one Place</p>
+                    <button class="button">Explore now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <h1 class="section-title">Featured categories</h1>
+        <div class="content">
+            <div class="category">
+                <div class="cat-details">
+                    For men
+                </div>
+
+            </div>
+            <div class="category">
+                <div class="cat-details">
+                    equipments
+                </div>
+                
+            </div>
+            <div class="category">
+                <div class="cat-details">
+                    For shop
+                </div>
+            </div>
+            <div class="category">
+                <div class="cat-details">
+                    For kids
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="products">
+        <h1 class="section-title">
+            New Products
+        </h1>
+        <div class="product-content">
+            <div class="product">
+                <div class="product-img">
+                    <img src="./pro1.webp" alt="no img">
+
+                </div>
+                <div class="product--details">
+                    <h1>Dumbbells</h1>
+                    <h2>price:500
+                    </h2>
+                    <button>Buy now</button>
+                </div>
+                </div>
+                <div class="product">
+                    <div class="product-img">
+                        <img src="./pro2.jpeg" alt="no img">
+    
+                    </div>
+                    <div class="product--details">
+                        <h1>T-shirt</h1>
+                        <h2>price:500
+                        </h2>
+                        <button>Buy now</button>
+                    </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-img">
+                            <img src="./pro3.webp" alt="no img">
+        
+                        </div>
+                        <div class="product--details">
+                            <h1>Water bottle</h1>
+                            <h2>price:200
+                            </h2>
+                            <button>Buy now</button>
+                        </div>
+                        </div>
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="./pro4.webp" alt="no img">
+            
+                            </div>
+                            <div class="product--details">
+                                <h1>Yoga Mat</h1>
+                                <h2>price:800
+                                </h2>
+                                <button>Buy now</button>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <h1 class="section-title">
+            contact
+        </h1>
+        <form class="con"> 
+        <div class="your">
+            Enter your name:
+            <input class="are" type="text" placeholder="enter your name">
+        </div>
+        <div class="your"> 
+            Enter your mobile number:
+            <input class="are" type="number" placeholder="enter your number">
+        </div>
+        <div class="your"> 
+            Enter your Address:
+             <textarea class="are" rows="4" cols="50"></textarea>
+        </div>
+        <button class="button">submit</button>
+         </form>
+    </section>
+
+    <script>
+        window.onscroll=function(){
+            if(window.scrollY>=100){
+            
+                document.getElementById('header').style.backgroungColor="white";
+            }
+            else
+            {
+                document.getElementById('header').style.backgroungColor="transparent";
+            }
+        
+        }
+    </script>
+    
+</body>
+</html>
